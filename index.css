@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.resume {
+    font-family: "Century Gothic", sans-serif;
+}
+
+.resume__header, .resume__description, .resume__footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+ .resume__right, .resume__left {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.resume__footer > * {
+    padding-bottom: 2%;
+}
+
+.resume__left {
+    background-color: #D4D5ED;
+    width: 30vw;
+}
+
+.resume__right {
+    background-color: white;
+    width: 70vw;
+}
+
+.header__right, .header__left  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.header__left {
+    align-items: center;
+}
+
+.header__photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #6D72C3 solid 0.5em;
+}
+
+.header__full-name, .header__position, .section__title {
+    color: #6D72C3;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.section__title {
+    background-color: #D4D5ED;
+}
+
+.header__position {
+    color: #bdbdbd;
+    margin: 0;
+}
+
+.text__list {
+    list-style-type: none;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item__title {
+    width: 30%;
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+.item__text {
+    width: 70%;
+}
